@@ -1,0 +1,80 @@
+body {
+  font-family: 'Ubuntu';
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img {
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style: none;
+  margin: auto;
+}
+
+.container {
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-size: 4em;
+}
+
+form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+input {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 40px;
+}
+
+label {
+  font-size: 2em;
+}
+
+.buttons {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.buttons button {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  color: rgb(241, 211, 36);
+  background-color: #000000;
+  text-align: center;
+}
+
+.buttons button:hover, .searchBtn:hover {
+  background-color: #9e9d9d;
+  color: #000000;
+}
+
+.searchBtn {
+  color: rgb(241, 211, 36);
+  background-color: #000000;
+}
+
+a {
+  text-decoration: underline;
+}
