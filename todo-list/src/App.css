@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  background-color: pink;
+  width: 50%;
+}
+
+.title {
+  background-color: #D84D4D;
+  background-size: 100%;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  background-color: #E3E3E3;
+  outline: none;
+  font-size: 20px;
+  font-family: 'PT Sans';
+}
+
+.displayList {
+  margin-top: 10px;
+}
+
+li {
+  height: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 2em;
+  font-family: 'PT Sans';
+}
+
+li:hover {
+  color: #fed;
+  background-color: #abc;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background-color: #C74444;
+}
+
+.bottom-buttons {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Muli';
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Muli';
+}
+
+.pull-left {
+  padding-left: 20px;
+}
+
+#clearTodosBtn, #resetTodosBtn {
+  margin-left: 10px;
+  outline: none;
+}
