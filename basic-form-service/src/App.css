@@ -1,0 +1,48 @@
+body {
+  background-color: #EFA1A1;
+  font-family: 'PT Sans Narrow';
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.firstFormBtn, .secondFormBtn {
+  background-color: #30EF9C;
+  color: black;
+}
+
+.resetButton {
+  background-color: #FA5F5F;
+  color: white;
+}
+
+.firstFormBtn:hover, .secondFormBtn:hover {
+  background-color: #48BC8A;
+  color: black;
+}
+
+.resetButton:hover {
+  background-color: #F01B1B;
+  color: white;
+}
+
+.form-control {
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  font-size: 20px;
+
+}
+
+.App {
+  margin-top: 180px;
+}
